@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
-iowa_file_path = '../../DataSets/home-data-for-ml-course_train.csv'
+iowa_file_path = './DataSets/home-data-for-ml-course_train.csv'
 
 # %%
 home_data = pd.read_csv(iowa_file_path)
