@@ -43,7 +43,6 @@ X.describe()
 X.head()
 
 #%%
-
 iowa_model = DecisionTreeRegressor(random_state=1)
 
 #%%
