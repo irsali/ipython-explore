@@ -1,11 +1,15 @@
 # %%
+import os
 import pandas as pd
 import numpy
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
-iowa_file_path = './DataSets/home-data-for-ml-course_train.csv'
+iowa_file_path = 'DataSets/home-data-for-ml-course_train.csv'
+
+p1 = os.path.join('DataSets', 'home-data-for-ml-course_train.csv')
+p2 = os.path.abspath(p1)
 
 # %%
 home_data = pd.read_csv(iowa_file_path)

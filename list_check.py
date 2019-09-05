@@ -17,3 +17,6 @@ print(d)
 e = e[2:]
 print(e)
 
+
+
+#%%
